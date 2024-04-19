@@ -28,7 +28,7 @@ body{
     font-size: 32px;
 }
 .botao{
-    font-family: "chakra Peatch", sans-serif;
+    font-family: "Chakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -55,4 +55,9 @@ body{
     .botao:last-child{
         border-radius: 0 40px 0 0 ;
     }
+}
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+
 }
